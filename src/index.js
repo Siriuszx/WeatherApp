@@ -1,3 +1,5 @@
 import './style.css';
+import WeatherDataHandler from './WeatherDataHandler';
 
-console.log('Init');
+const weather = new WeatherDataHandler();
+weather.getLocationWeather('Berlin');
