@@ -1,5 +1,5 @@
 import './style.css';
-import WeatherDataHandler from './WeatherDataHandler';
+import WeatherAppController from './WeatherAppController';
 
-const weather = new WeatherDataHandler();
-weather.getLocationWeather('Berlin');
+const app = new WeatherAppController();
+

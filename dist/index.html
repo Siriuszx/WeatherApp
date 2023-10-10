@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeatherApp</title>
 <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+
 <body>
-    Berlin
+    <button id="open-modal" type="button">Get Your Forecast</button>
+    <dialog id="forecast-modal">
+        <form id="forecast-form" method="dialog">
+            <div class="form-container">
+                <div class="form-input-item">
+                    <label for="location-field">City Name:</label>
+                    <input required type="text" name="city-field" id="location-field">
+                </div>
+                <div class="form-input-item">
+                    <button id="submit-forecast-button" type="button">Get Forecast</button>
+                </div>
+            </div>
+        </form>
+    </dialog>
 </body>
+
 </html>
