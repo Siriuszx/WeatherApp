@@ -3,3 +3,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-weather-container {
+    padding: 2rem;
+}
+
